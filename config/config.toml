@@ -1,0 +1,16 @@
+
+[server]
+port = 8080
+host = "localhost"
+
+[database]
+user = "admin"
+password = "password"
+name = "mydatabase"
+
+[mysqldb]
+dsn = "root:123456@tcp(127.0.0.1:3308)/ranking?charset=utf8mb4&parseTime=True&loc=Local"
+
+[redis]
+redis_addr = "localhost:6379"
+redis_pass = "123456"
